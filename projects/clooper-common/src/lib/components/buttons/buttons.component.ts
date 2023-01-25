@@ -9,12 +9,11 @@ export class ButtonsComponent {
 
   @Input() label!: string;
   @Input() btnColor!: string;
-  @Input() message!: string;
 
   @Output() onClick = new EventEmitter<string>();
 
 
   buttonClicked() {
-    this.onClick.emit(this.message)
+    this.onClick.emit("I am a reuseable Button!");
   }
 }
