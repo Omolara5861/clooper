@@ -4,9 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'fullName'
 })
 export class FullNamePipe implements PipeTransform {
-
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform(firstname: string, ...lastname: string[]): string {
+    return firstname + lastname.join(' ');
   }
-
 }
