@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+
+  onNotify() {
+    alert('Thanks for Stopping by, you would be notified!');
+  }
 }
