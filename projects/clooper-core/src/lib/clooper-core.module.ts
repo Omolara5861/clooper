@@ -1,16 +1,11 @@
 import { NgModule } from '@angular/core';
-import { ClooperCoreComponent } from './clooper-core.component';
+import { UsersService } from './services/users.service';
 
 
 
 @NgModule({
-  declarations: [
-    ClooperCoreComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    ClooperCoreComponent
+  providers: [
+    UsersService
   ]
 })
 export class ClooperCoreModule { }
