@@ -7,7 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "start:admin":"ng serve --project=beehive-blue --port 4300",
+    "start:website":"ng serve --project=beehive-red --port 4500",
+    "start:webapp":"ng serve --project=beehive-green --port 4700"
+
   },
   "private": true,
   "dependencies": {
