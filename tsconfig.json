@@ -3,6 +3,15 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "ClooperCore": [
+        "dist/clooper-core",
+        "dist/clooper-core"
+      ],
+      "clooper-core": [
+        "dist/clooper-core"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
