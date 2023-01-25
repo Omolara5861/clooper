@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PaginationComponent } from './components/pagination/pagination.component';
+import { ButtonsComponent } from './components/buttons/buttons.component';
 
 
 
@@ -7,7 +8,8 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 @NgModule({
   declarations: [
   
-    PaginationComponent
+    PaginationComponent,
+       ButtonsComponent
   ],
   imports: [
   ],
