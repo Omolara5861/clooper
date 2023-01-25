@@ -4,6 +4,9 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
+      "ClooperCommon": [
+        "dist/clooper-common"
+      ],
       "ClooperCore": [
         "dist/clooper-core",
         "dist/clooper-core"
