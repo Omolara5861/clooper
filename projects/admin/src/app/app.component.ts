@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'admin';
+
+  message = '';
+
+  onShowMessage(event: string) {
+    console.log(event);
+    this.message = 'Hello, Admin! You just clicked the reusable button'
+  }
 }
+
