@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "admin":"ng serve --project=admin --port 4300",
     "website":"ng serve --project=website --port 4500",
-    "webapp":"ng serve --webapp --port 4700"
+    "webapp":"ng serve --project=webapp --port 4700"
 
   },
   "private": true,
