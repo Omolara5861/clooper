@@ -14,6 +14,10 @@ import { FullNamePipe } from './pipes/full-name.pipe';
   imports: [
   ],
   exports: [
+    PaginationComponent,
+    ButtonsComponent,
+    AccordionComponent,
+    FullNamePipe
   ]
 })
 export class ClooperCommonModule { }
