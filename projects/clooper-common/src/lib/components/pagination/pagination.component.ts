@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'lib-pagination',
@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class PaginationComponent {
 
+  @Input() allPagesNumber!: number;
+  currentPage = 1;
+
+  onNextPage(): void {
+    this.currentPage += 1;
+  }
+
+  onPreviousPage(): void {
+    this.currentPage -= 1;
+  }
 }
