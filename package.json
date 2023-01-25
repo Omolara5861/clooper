@@ -8,9 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "start:admin":"ng serve --project=admin --port 4300",
-    "start:website":"ng serve --project=website --port 4500",
-    "start:webapp":"ng serve --webapp --port 4700"
+    "admin":"ng serve --project=admin --port 4300",
+    "website":"ng serve --project=website --port 4500",
+    "webapp":"ng serve --webapp --port 4700"
 
   },
   "private": true,
