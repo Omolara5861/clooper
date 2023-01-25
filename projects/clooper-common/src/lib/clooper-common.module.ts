@@ -3,6 +3,7 @@ import { PaginationComponent } from './components/pagination/pagination.componen
 import { ButtonsComponent } from './components/buttons/buttons.component';
 import { AccordionComponent } from './components/accordion/accordion.component';
 import { FullnamePipe } from './pipes/fullname.pipe';
+import { FullNamePipe } from './pipes/full-name.pipe';
 
 
 
@@ -13,7 +14,8 @@ import { FullnamePipe } from './pipes/fullname.pipe';
     PaginationComponent,
        ButtonsComponent,
        AccordionComponent,
-       FullnamePipe
+       FullnamePipe,
+       FullNamePipe
   ],
   imports: [
   ],
