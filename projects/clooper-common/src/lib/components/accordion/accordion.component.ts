@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'lib-accordion',
@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AccordionComponent {
 
+  @Input() headerText!: string;
+  @Input() bodyText!: string;
+  @Input() accordionColor!: string;
+
+  isAccordionOpen = true;
 }
