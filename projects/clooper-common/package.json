@@ -6,8 +6,6 @@
     "@angular/core": "^15.1.0"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.3",
     "tslib": "^2.3.0"
   },
   "sideEffects": false
