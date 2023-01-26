@@ -2,8 +2,8 @@
 
 ## How to run this project?
 
-- Clone to your local box
-- Run `npm i` to install packages
+- Clone to your local machine
+- Run `npm i` to install all necessary packages
 - Run the below script to see the (3) projects in this repo.
 
 ### Run the Admin Dashboard
