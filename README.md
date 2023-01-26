@@ -10,19 +10,19 @@
 ```
 npm run admin
 ```
-Visit: http://localhost:4300/adduser
+Visit: http://localhost:4300
 
 
 ### Run the Website
 ```
 npm run website
 ```
-Visit: http://localhost:4500/adduser
+Visit: http://localhost:4500
 
 ### Run the Web Application
 ```
 npm run webapp
 ```
-Visit: http://localhost:4700/adduser
+Visit: http://localhost:4700
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
