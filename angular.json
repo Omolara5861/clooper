@@ -157,6 +157,15 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/admin/**/*.ts",
+              "projects/admin/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -247,6 +256,15 @@
               "projects/webapp/src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/webapp/**/*.ts",
+              "projects/webapp/**/*.html"
+            ]
           }
         }
       }
@@ -339,10 +357,18 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/website/**/*.ts",
+              "projects/website/**/*.html"
+            ]
+          }
         }
       }
     }
-
   },
   "cli": {
     "analytics": "c2b411a5-6f96-484a-8d40-d3446684a46d"

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'webapp';
 
-  name:string = ''
+  name!:string;
   height!:number;
   weight!:number
   bmi!:number
@@ -16,5 +16,5 @@ export class AppComponent {
 
   calcBMI() {
     this.bmi = Math.round((this.weight / this.height / this.height) * 703)
-  };
+  }
 }
